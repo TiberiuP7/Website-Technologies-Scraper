@@ -25,12 +25,12 @@ Then Main writes the data to the JSON file results.JSON and the workflow ends th
 The most relevant cases of the problem I found were, after we fetch the data from a http GET request and save it, we needed to also check if that data is complete, because some sites such as SPA's(Single Page Applications) tend to load a short or simple html file at runtime, and then dinamically load the JavaScript or other resources which would give away the technologies used in building that websit. In this case, running a headless browser in Chrome using Playwright is the solution, but a solutions that isn't feasible to use for each domain we need to scrap, because it takes many CPU resources and is heavy, aproximatively 150-300 MB for one chromium window for one site. Running the Playwright on each domain would possibly give better results but the delay in time and resources is too big to consider, and so I needed to find a solution, a middle ground, which would be the sweet spot as cost-effective and as technologies retrieved and found.
 And as such, I built a workflow that first loads the rules that map patterns to technologies found in websites, then loaded the domains, compiled those rules so they could be used precisely in runtime in comparing and then fetched in all cases the http GET request, and only after check if it s the case for Playwright too, if the html, stripped of script tags that are most likely bot CAPTCHA's or scripts, is still shorter than 500 chracters, as that is a strong giveaway of a site that's not fully loaded. Also, if on the fetch we get errors such as 403, 429, 503. These errors give away that that site is a SPA. 
 
-Here are the diagrams and the workflow I designed for this project.
-![Detectarea tehnologiilor unui website.jpg](Detectarea%20tehnologiilor%20unui%20website.jpg)
+Here are the diagrams and the workflow I designed for this project:
+![Detectarea tehnologiilor unui website.jpg](diagrams/Detectarea%20tehnologiilor%20unui%20website.jpg)
 
-![Web Technologies Scrapper Structure.jpg](Web%20Technologies%20Scrapper%20Structure.jpg)
+![Web Technologies Scrapper Structure.jpg](diagrams/Web%20Technologies%20Scrapper%20Structure.jpg)
 
-![Componentele aplicatiei.jpg](Componentele%20aplicatiei.jpg)
+![Componentele aplicatiei.jpg](diagrams/Componentele%20aplicatiei.jpg)
 
 How it works: 
 
@@ -60,7 +60,7 @@ Backend technologies are inaccesible, they can only be guesses by implied techno
 
 False-positives from too large RegEx's.
 
-Scripts that load only after the cookies consent - solution: automate the click on the banner(usually in the bottom left corner of the website's page).
+Scripts that load only after the cookies consent - solution: automate the click on the banner(usually in the bottom right corner of the website's page).
 
 Expired domains, redirects. Ideally, here are configured so that no domain is visited twice and so each redirect or a site that redirects to the main site isn't crawled again, because it is just a redirect to the main site, same with expired domains, they can't be crawled even though some info could be found on them.
 
