@@ -100,7 +100,7 @@ export function detect(art, rules) {
                         });
                     }
                 } catch {
-                    // cheerio doesn't support this selector
+
                 }
             }
         }
@@ -132,7 +132,6 @@ export function detect(art, rules) {
         }
     };
 
-    // "requires" is checked against everything detected or implied.
     const closure = new Map(found);
     applyImplies(closure);
     const closureCats = new Set([...closure.values()].flatMap((a) => a.tech.cats));

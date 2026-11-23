@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@openwapp/fingerprints": "^0.1.0",
+    "cheerio": "^1.2.0",
+    "hyparquet": "^1.33.1",
+    "playwright": "^1.65.1"
+  }
 }

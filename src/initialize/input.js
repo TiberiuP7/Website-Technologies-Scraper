@@ -1,5 +1,5 @@
-import { readFile } from 'node:fs/promises';
-import { parquetReadObjects } from 'hyparquet';
+import {readFile} from 'node:fs/promises';
+import {parquetReadObjects} from 'hyparquet';
 
 export async function loadDomains()
 {
@@ -14,9 +14,5 @@ export async function loadDomains()
         if (domain) uniqueDomains.add(domain);
     }
 
-    const domains = Array.from(uniqueDomains);
-    console.log(domains.length);
-    console.log(domains);
-
-    return domains;
+    return Array.from(uniqueDomains);
 }

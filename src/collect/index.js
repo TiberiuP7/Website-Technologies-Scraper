@@ -10,45 +10,41 @@ function needsBrowser(page) {
     return text.length < 500;
 }
 
-export async function collectDomain(
-    input,
-    { maxPages = 3,
-        timeoutMs = 10000, browserMode = 'auto',
-        browser = null, jsChains = [] } = {},
-) {
-    const domain = input.trim().toLowerCase().replace(/^https?:\/\//, '').replace(/[/?#].*$/, '').replace(/^www\./, '');
+// browserMode: 'all' always renders, 'auto' only when needsBrowser(), 'off' never.
+export async function collectDomain(domain, { maxPages = 3, timeoutMs = 15000, browserMode = 'auto', browser, jsChains = [] } = {}) {
     const fetchedAt = new Date().toISOString();
-
     const [home, dns] = await Promise.all([fetchHomepage(domain, timeoutMs), lookupDns(domain)]);
-    const result = { domain, fetchedAt, pages: [], dns, robots: '', certIssuer: '', errors: [...home.errors] };
+    const result = { domain, fetchedAt, pages: [], dns, errors: [...home.errors] };
     if (!home.page) return result;
-    result.pages.push(home.page);
 
-    const { origin, hostname } = new URL(home.page.finalUrl);
-    const innerUrls = pickInternalPages(home.page.links, home.page.finalUrl, Math.max(0, maxPages - 1));
+    const { links, ...homepage } = home.page;
+    result.pages.push(homepage);
+    const { origin, hostname } = new URL(homepage.finalUrl);
+    const innerUrls = pickInternalPages(links, homepage.finalUrl, Math.max(0, maxPages - 1));
 
     const [robots, certIssuer, ...innerPages] = await Promise.all([
         fetchRobots(origin, timeoutMs),
         lookupCertIssuer(hostname),
         ...innerUrls.map((url) =>
-            fetchPage(url, timeoutMs).catch((err) => {
-                result.errors.push(`${url}: ${err.cause?.code ?? err.name}`);
-                return null;
-            }),
+            fetchPage(url, timeoutMs)
+                .then(({ links: _links, ...page }) => page)
+                .catch((err) => {
+                    result.errors.push(`${url}: ${err.message}`);
+                    return undefined;
+                }),
         ),
     ]);
     result.robots = robots;
     result.certIssuer = certIssuer;
     result.pages.push(...innerPages.filter(Boolean));
 
-    const wantsBrowser = browserMode === 'all' || (browserMode === 'auto' && needsBrowser(home.page));
+    const wantsBrowser = browserMode === 'all' || (browserMode === 'auto' && needsBrowser(homepage));
     if (browser && wantsBrowser) {
         try {
-            result.pages.push(await renderPage(browser, home.page.finalUrl, jsChains, timeoutMs * 2));
+            result.pages.push(await renderPage(browser, homepage.finalUrl, jsChains, timeoutMs * 2));
         } catch (err) {
             result.errors.push(`browser: ${err.message.split('\n')[0]}`);
         }
     }
-
     return result;
 }

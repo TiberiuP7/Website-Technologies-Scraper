@@ -1,0 +1,1708 @@
+{
+  "domainsTotal": 200,
+  "domainsReached": 187,
+  "distinctTechnologies": 425,
+  "totalDetections": 3045,
+  "technologies": [
+    {
+      "name": "jQuery",
+      "sites": 111
+    },
+    {
+      "name": "Let's Encrypt",
+      "sites": 109
+    },
+    {
+      "name": "Open Graph",
+      "sites": 108
+    },
+    {
+      "name": "PHP",
+      "sites": 97
+    },
+    {
+      "name": "Priority Hints",
+      "sites": 85
+    },
+    {
+      "name": "MySQL",
+      "sites": 81
+    },
+    {
+      "name": "WordPress",
+      "sites": 75
+    },
+    {
+      "name": "Cloudflare",
+      "sites": 74
+    },
+    {
+      "name": "HTTP/3",
+      "sites": 72
+    },
+    {
+      "name": "RSS",
+      "sites": 72
+    },
+    {
+      "name": "Google Font API",
+      "sites": 71
+    },
+    {
+      "name": "jQuery Migrate",
+      "sites": 65
+    },
+    {
+      "name": "Google Tag Manager",
+      "sites": 63
+    },
+    {
+      "name": "Font Awesome",
+      "sites": 60
+    },
+    {
+      "name": "HSTS",
+      "sites": 59
+    },
+    {
+      "name": "core-js",
+      "sites": 53
+    },
+    {
+      "name": "Google Analytics",
+      "sites": 53
+    },
+    {
+      "name": "Cloudflare Bot Management",
+      "sites": 47
+    },
+    {
+      "name": "Twitter Emoji (Twemoji)",
+      "sites": 42
+    },
+    {
+      "name": "Apache HTTP Server",
+      "sites": 39
+    },
+    {
+      "name": "Google Maps",
+      "sites": 37
+    },
+    {
+      "name": "jQuery UI",
+      "sites": 36
+    },
+    {
+      "name": "Swiper",
+      "sites": 36
+    },
+    {
+      "name": "Bootstrap",
+      "sites": 35
+    },
+    {
+      "name": "Nginx",
+      "sites": 35
+    },
+    {
+      "name": "Microsoft 365",
+      "sites": 34
+    },
+    {
+      "name": "reCAPTCHA",
+      "sites": 34
+    },
+    {
+      "name": "Yoast SEO",
+      "sites": 33
+    },
+    {
+      "name": "GoDaddy",
+      "sites": 25
+    },
+    {
+      "name": "React",
+      "sites": 24
+    },
+    {
+      "name": "Google Workspace",
+      "sites": 22
+    },
+    {
+      "name": "Contact Form 7",
+      "sites": 21
+    },
+    {
+      "name": "Cart Functionality",
+      "sites": 20
+    },
+    {
+      "name": "Elementor",
+      "sites": 20
+    },
+    {
+      "name": "Cloudflare DNS",
+      "sites": 19
+    },
+    {
+      "name": "GSAP",
+      "sites": 19
+    },
+    {
+      "name": "imagesLoaded",
+      "sites": 18
+    },
+    {
+      "name": "Modernizr",
+      "sites": 18
+    },
+    {
+      "name": "Akamai",
+      "sites": 17
+    },
+    {
+      "name": "LiteSpeed",
+      "sites": 17
+    },
+    {
+      "name": "WordPress Block Editor",
+      "sites": 17
+    },
+    {
+      "name": "jsDelivr",
+      "sites": 16
+    },
+    {
+      "name": "Masonry",
+      "sites": 16
+    },
+    {
+      "name": "Akamai Bot Manager",
+      "sites": 14
+    },
+    {
+      "name": "Amazon Web Services",
+      "sites": 13
+    },
+    {
+      "name": "Lightbox",
+      "sites": 13
+    },
+    {
+      "name": "OWL Carousel",
+      "sites": 13
+    },
+    {
+      "name": "Facebook Pixel",
+      "sites": 12
+    },
+    {
+      "name": "Isotope",
+      "sites": 12
+    },
+    {
+      "name": "parallax.js",
+      "sites": 12
+    },
+    {
+      "name": "Slick",
+      "sites": 12
+    },
+    {
+      "name": "YouTube",
+      "sites": 12
+    },
+    {
+      "name": "cdnjs",
+      "sites": 11
+    },
+    {
+      "name": "DigiCert",
+      "sites": 11
+    },
+    {
+      "name": "Onsen UI",
+      "sites": 11
+    },
+    {
+      "name": "PWA",
+      "sites": 11
+    },
+    {
+      "name": "Sentry",
+      "sites": 11
+    },
+    {
+      "name": "Site Kit",
+      "sites": 11
+    },
+    {
+      "name": "Adobe Fonts",
+      "sites": 10
+    },
+    {
+      "name": "Magnific Popup",
+      "sites": 10
+    },
+    {
+      "name": "Typekit",
+      "sites": 10
+    },
+    {
+      "name": "Wix",
+      "sites": 10
+    },
+    {
+      "name": "lit-element",
+      "sites": 9
+    },
+    {
+      "name": "lit-html",
+      "sites": 9
+    },
+    {
+      "name": "RequireJS",
+      "sites": 9
+    },
+    {
+      "name": "wpBakery",
+      "sites": 9
+    },
+    {
+      "name": "FancyBox",
+      "sites": 8
+    },
+    {
+      "name": "MediaElement.js",
+      "sites": 8
+    },
+    {
+      "name": "Select2",
+      "sites": 8
+    },
+    {
+      "name": "Sirvoy",
+      "sites": 8
+    },
+    {
+      "name": "Stimulus",
+      "sites": 8
+    },
+    {
+      "name": "Store Vantage",
+      "sites": 8
+    },
+    {
+      "name": "WebsiteBuilder",
+      "sites": 8
+    },
+    {
+      "name": "Wix eCommerce",
+      "sites": 8
+    },
+    {
+      "name": "Amazon Route 53",
+      "sites": 7
+    },
+    {
+      "name": "Divi",
+      "sites": 7
+    },
+    {
+      "name": "DoubleClick Floodlight",
+      "sites": 7
+    },
+    {
+      "name": "FitVids.JS",
+      "sites": 7
+    },
+    {
+      "name": "Google Hosted Libraries",
+      "sites": 7
+    },
+    {
+      "name": "Hello Elementor",
+      "sites": 7
+    },
+    {
+      "name": "Moment.js",
+      "sites": 7
+    },
+    {
+      "name": "Sectigo",
+      "sites": 7
+    },
+    {
+      "name": "Slider Revolution",
+      "sites": 7
+    },
+    {
+      "name": "WhatsApp Business Chat",
+      "sites": 7
+    },
+    {
+      "name": "Afterpay",
+      "sites": 6
+    },
+    {
+      "name": "Akamai mPulse",
+      "sites": 6
+    },
+    {
+      "name": "Animate.css",
+      "sites": 6
+    },
+    {
+      "name": "Boomerang",
+      "sites": 6
+    },
+    {
+      "name": "CookieYes",
+      "sites": 6
+    },
+    {
+      "name": "Gravity Forms",
+      "sites": 6
+    },
+    {
+      "name": "Hammer.js",
+      "sites": 6
+    },
+    {
+      "name": "LiteSpeed Cache",
+      "sites": 6
+    },
+    {
+      "name": "Squarespace",
+      "sites": 6
+    },
+    {
+      "name": "Squarespace Commerce",
+      "sites": 6
+    },
+    {
+      "name": "Vimeo",
+      "sites": 6
+    },
+    {
+      "name": "Vue.js",
+      "sites": 6
+    },
+    {
+      "name": "Webpack",
+      "sites": 6
+    },
+    {
+      "name": "WooCommerce",
+      "sites": 6
+    },
+    {
+      "name": "WP Engine",
+      "sites": 6
+    },
+    {
+      "name": "YUI",
+      "sites": 6
+    },
+    {
+      "name": "Astra",
+      "sites": 5
+    },
+    {
+      "name": "Endurance Page Cache",
+      "sites": 5
+    },
+    {
+      "name": "Flickity",
+      "sites": 5
+    },
+    {
+      "name": "Java",
+      "sites": 5
+    },
+    {
+      "name": "Linkedin Insight Tag",
+      "sites": 5
+    },
+    {
+      "name": "Litespeed Cache",
+      "sites": 5
+    },
+    {
+      "name": "Microsoft ASP.NET",
+      "sites": 5
+    },
+    {
+      "name": "MonsterInsights",
+      "sites": 5
+    },
+    {
+      "name": "PayPal",
+      "sites": 5
+    },
+    {
+      "name": "Really Simple SSL & Security",
+      "sites": 5
+    },
+    {
+      "name": "W3 Total Cache",
+      "sites": 5
+    },
+    {
+      "name": "web-vitals",
+      "sites": 5
+    },
+    {
+      "name": "Akismet",
+      "sites": 4
+    },
+    {
+      "name": "Cloudflare Browser Insights",
+      "sites": 4
+    },
+    {
+      "name": "Firebase",
+      "sites": 4
+    },
+    {
+      "name": "Hostinger",
+      "sites": 4
+    },
+    {
+      "name": "Kinsta",
+      "sites": 4
+    },
+    {
+      "name": "LazySizes",
+      "sites": 4
+    },
+    {
+      "name": "Linkedin Ads",
+      "sites": 4
+    },
+    {
+      "name": "Matomo Analytics",
+      "sites": 4
+    },
+    {
+      "name": "Microsoft Clarity",
+      "sites": 4
+    },
+    {
+      "name": "OneTrust",
+      "sites": 4
+    },
+    {
+      "name": "PhotoSwipe",
+      "sites": 4
+    },
+    {
+      "name": "prettyPhoto",
+      "sites": 4
+    },
+    {
+      "name": "RankMath SEO",
+      "sites": 4
+    },
+    {
+      "name": "React Redux",
+      "sites": 4
+    },
+    {
+      "name": "Redux",
+      "sites": 4
+    },
+    {
+      "name": "Snowplow Analytics",
+      "sites": 4
+    },
+    {
+      "name": "Weebly",
+      "sites": 4
+    },
+    {
+      "name": "WOW",
+      "sites": 4
+    },
+    {
+      "name": "WP Fastest Cache",
+      "sites": 4
+    },
+    {
+      "name": "Adobe Experience Manager",
+      "sites": 3
+    },
+    {
+      "name": "Amazon ALB",
+      "sites": 3
+    },
+    {
+      "name": "AMP",
+      "sites": 3
+    },
+    {
+      "name": "anime.js",
+      "sites": 3
+    },
+    {
+      "name": "AOS",
+      "sites": 3
+    },
+    {
+      "name": "Apple iCloud Mail",
+      "sites": 3
+    },
+    {
+      "name": "Babel",
+      "sites": 3
+    },
+    {
+      "name": "Cloudflare Turnstile",
+      "sites": 3
+    },
+    {
+      "name": "DreamWeaver",
+      "sites": 3
+    },
+    {
+      "name": "Facebook Login",
+      "sites": 3
+    },
+    {
+      "name": "Formidable Form",
+      "sites": 3
+    },
+    {
+      "name": "GoDaddy CoBlocks",
+      "sites": 3
+    },
+    {
+      "name": "Google AdSense",
+      "sites": 3
+    },
+    {
+      "name": "Google Cloud DNS",
+      "sites": 3
+    },
+    {
+      "name": "IIS",
+      "sites": 3
+    },
+    {
+      "name": "jQuery CDN",
+      "sites": 3
+    },
+    {
+      "name": "Leaflet",
+      "sites": 3
+    },
+    {
+      "name": "LottieFiles",
+      "sites": 3
+    },
+    {
+      "name": "Mustache",
+      "sites": 3
+    },
+    {
+      "name": "Next.js",
+      "sites": 3
+    },
+    {
+      "name": "OpenResty",
+      "sites": 3
+    },
+    {
+      "name": "OVHcloud",
+      "sites": 3
+    },
+    {
+      "name": "Skrollr",
+      "sites": 3
+    },
+    {
+      "name": "UIKit",
+      "sites": 3
+    },
+    {
+      "name": "UserWay",
+      "sites": 3
+    },
+    {
+      "name": "Varnish",
+      "sites": 3
+    },
+    {
+      "name": "Vercel",
+      "sites": 3
+    },
+    {
+      "name": "VideoJS",
+      "sites": 3
+    },
+    {
+      "name": "Web Font Loader",
+      "sites": 3
+    },
+    {
+      "name": "Webflow",
+      "sites": 3
+    },
+    {
+      "name": "Windows Server",
+      "sites": 3
+    },
+    {
+      "name": "WordPress Multisite",
+      "sites": 3
+    },
+    {
+      "name": "WordPress.com",
+      "sites": 3
+    },
+    {
+      "name": "Adobe Experience Platform Launch",
+      "sites": 2
+    },
+    {
+      "name": "All in One SEO",
+      "sites": 2
+    },
+    {
+      "name": "All in One SEO Pack",
+      "sites": 2
+    },
+    {
+      "name": "Amazon S3",
+      "sites": 2
+    },
+    {
+      "name": "AngularJS",
+      "sites": 2
+    },
+    {
+      "name": "Anthropic",
+      "sites": 2
+    },
+    {
+      "name": "Apple Pay",
+      "sites": 2
+    },
+    {
+      "name": "Bluehost",
+      "sites": 2
+    },
+    {
+      "name": "Chart.js",
+      "sites": 2
+    },
+    {
+      "name": "ComplyAuto",
+      "sites": 2
+    },
+    {
+      "name": "Easy Pie Chart",
+      "sites": 2
+    },
+    {
+      "name": "Emotion",
+      "sites": 2
+    },
+    {
+      "name": "Facebook Chat Plugin",
+      "sites": 2
+    },
+    {
+      "name": "FullCalendar",
+      "sites": 2
+    },
+    {
+      "name": "GoDaddy Website Builder",
+      "sites": 2
+    },
+    {
+      "name": "Goober",
+      "sites": 2
+    },
+    {
+      "name": "Google Ads",
+      "sites": 2
+    },
+    {
+      "name": "Google Ads Conversion Tracking",
+      "sites": 2
+    },
+    {
+      "name": "Google Publisher Tag",
+      "sites": 2
+    },
+    {
+      "name": "Gravatar",
+      "sites": 2
+    },
+    {
+      "name": "Gutenberg",
+      "sites": 2
+    },
+    {
+      "name": "HubSpot",
+      "sites": 2
+    },
+    {
+      "name": "HubSpot Analytics",
+      "sites": 2
+    },
+    {
+      "name": "Instagram Feed for WordPress",
+      "sites": 2
+    },
+    {
+      "name": "Joinchat",
+      "sites": 2
+    },
+    {
+      "name": "jQuery Mobile",
+      "sites": 2
+    },
+    {
+      "name": "Kadence WP Blocks",
+      "sites": 2
+    },
+    {
+      "name": "Kadence WP Kadence",
+      "sites": 2
+    },
+    {
+      "name": "Klarna Checkout",
+      "sites": 2
+    },
+    {
+      "name": "Livefyre",
+      "sites": 2
+    },
+    {
+      "name": "Mailcheck",
+      "sites": 2
+    },
+    {
+      "name": "MailChimp",
+      "sites": 2
+    },
+    {
+      "name": "Mailgun",
+      "sites": 2
+    },
+    {
+      "name": "Max Mega Menu",
+      "sites": 2
+    },
+    {
+      "name": "Meta",
+      "sites": 2
+    },
+    {
+      "name": "MobX",
+      "sites": 2
+    },
+    {
+      "name": "Morphext",
+      "sites": 2
+    },
+    {
+      "name": "OceanWP",
+      "sites": 2
+    },
+    {
+      "name": "Plesk",
+      "sites": 2
+    },
+    {
+      "name": "Polylang",
+      "sites": 2
+    },
+    {
+      "name": "Popper",
+      "sites": 2
+    },
+    {
+      "name": "punycode",
+      "sites": 2
+    },
+    {
+      "name": "scrollreveal",
+      "sites": 2
+    },
+    {
+      "name": "Sendgrid",
+      "sites": 2
+    },
+    {
+      "name": "Shop Pay",
+      "sites": 2
+    },
+    {
+      "name": "Shopify",
+      "sites": 2
+    },
+    {
+      "name": "SiteOrigin Page Builder",
+      "sites": 2
+    },
+    {
+      "name": "SiteOrigin Widgets Bundle",
+      "sites": 2
+    },
+    {
+      "name": "Smash Balloon Instagram Feed",
+      "sites": 2
+    },
+    {
+      "name": "SWFObject",
+      "sites": 2
+    },
+    {
+      "name": "TrackJs",
+      "sites": 2
+    },
+    {
+      "name": "TypeScript",
+      "sites": 2
+    },
+    {
+      "name": "Ubuntu",
+      "sites": 2
+    },
+    {
+      "name": "UNIX",
+      "sites": 2
+    },
+    {
+      "name": "Unpkg",
+      "sites": 2
+    },
+    {
+      "name": "WordPress Site Editor",
+      "sites": 2
+    },
+    {
+      "name": "WPForms",
+      "sites": 2
+    },
+    {
+      "name": "Zoho",
+      "sites": 2
+    },
+    {
+      "name": "ZURB Foundation",
+      "sites": 2
+    },
+    {
+      "name": "AccessiBe",
+      "sites": 1
+    },
+    {
+      "name": "AccessiWay",
+      "sites": 1
+    },
+    {
+      "name": "Acquia Cloud Platform",
+      "sites": 1
+    },
+    {
+      "name": "Acquia Cloud Site Factory",
+      "sites": 1
+    },
+    {
+      "name": "Adobe Analytics",
+      "sites": 1
+    },
+    {
+      "name": "Adobe Audience Manager",
+      "sites": 1
+    },
+    {
+      "name": "Adobe Client Data Layer",
+      "sites": 1
+    },
+    {
+      "name": "Adobe Experience Platform Identity Service",
+      "sites": 1
+    },
+    {
+      "name": "Adobe Flash",
+      "sites": 1
+    },
+    {
+      "name": "Ahrefs",
+      "sites": 1
+    },
+    {
+      "name": "Akamai Web Application Protector",
+      "sites": 1
+    },
+    {
+      "name": "Amazon CloudFront",
+      "sites": 1
+    },
+    {
+      "name": "American Express",
+      "sites": 1
+    },
+    {
+      "name": "Amplience",
+      "sites": 1
+    },
+    {
+      "name": "ArvanCloud",
+      "sites": 1
+    },
+    {
+      "name": "Astro",
+      "sites": 1
+    },
+    {
+      "name": "Azure",
+      "sites": 1
+    },
+    {
+      "name": "Baidu Analytics (百度统计)",
+      "sites": 1
+    },
+    {
+      "name": "Beaver Builder",
+      "sites": 1
+    },
+    {
+      "name": "BeTheme",
+      "sites": 1
+    },
+    {
+      "name": "Beusable",
+      "sites": 1
+    },
+    {
+      "name": "Bitmovin",
+      "sites": 1
+    },
+    {
+      "name": "Bold Themes",
+      "sites": 1
+    },
+    {
+      "name": "Bootstrap Icons",
+      "sites": 1
+    },
+    {
+      "name": "Box",
+      "sites": 1
+    },
+    {
+      "name": "Breakdance",
+      "sites": 1
+    },
+    {
+      "name": "Bricks",
+      "sites": 1
+    },
+    {
+      "name": "Bunny",
+      "sites": 1
+    },
+    {
+      "name": "Bunny Fonts",
+      "sites": 1
+    },
+    {
+      "name": "Burst",
+      "sites": 1
+    },
+    {
+      "name": "bxSlider",
+      "sites": 1
+    },
+    {
+      "name": "Catch Themes Catch Box",
+      "sites": 1
+    },
+    {
+      "name": "Chaty",
+      "sites": 1
+    },
+    {
+      "name": "Cisco",
+      "sites": 1
+    },
+    {
+      "name": "Cloudimage",
+      "sites": 1
+    },
+    {
+      "name": "Colorlib Sparkling",
+      "sites": 1
+    },
+    {
+      "name": "Complianz",
+      "sites": 1
+    },
+    {
+      "name": "Conditional Fields for Contact Form 7",
+      "sites": 1
+    },
+    {
+      "name": "Constant Contact",
+      "sites": 1
+    },
+    {
+      "name": "Cookie Information",
+      "sites": 1
+    },
+    {
+      "name": "Cookie Information plugin",
+      "sites": 1
+    },
+    {
+      "name": "Cookie Notice",
+      "sites": 1
+    },
+    {
+      "name": "Cornerstone",
+      "sites": 1
+    },
+    {
+      "name": "Criteo",
+      "sites": 1
+    },
+    {
+      "name": "Crocoblock JetElements",
+      "sites": 1
+    },
+    {
+      "name": "Cryout Creations Parabola",
+      "sites": 1
+    },
+    {
+      "name": "crypto-js",
+      "sites": 1
+    },
+    {
+      "name": "Cufon",
+      "sites": 1
+    },
+    {
+      "name": "Datadog",
+      "sites": 1
+    },
+    {
+      "name": "Decibel",
+      "sites": 1
+    },
+    {
+      "name": "DHL",
+      "sites": 1
+    },
+    {
+      "name": "Directorist",
+      "sites": 1
+    },
+    {
+      "name": "DISH",
+      "sites": 1
+    },
+    {
+      "name": "DoubleClick Ad Exchange (AdX)",
+      "sites": 1
+    },
+    {
+      "name": "DPD",
+      "sites": 1
+    },
+    {
+      "name": "Draftpress HFCM",
+      "sites": 1
+    },
+    {
+      "name": "Drupal",
+      "sites": 1
+    },
+    {
+      "name": "Drupal Multisite",
+      "sites": 1
+    },
+    {
+      "name": "Dynamic Yield",
+      "sites": 1
+    },
+    {
+      "name": "Element UI",
+      "sites": 1
+    },
+    {
+      "name": "Elementor Cloud",
+      "sites": 1
+    },
+    {
+      "name": "Elementor Header & Footer Builder",
+      "sites": 1
+    },
+    {
+      "name": "ElementsKit",
+      "sites": 1
+    },
+    {
+      "name": "Engintron",
+      "sites": 1
+    },
+    {
+      "name": "Etracker",
+      "sites": 1
+    },
+    {
+      "name": "eWAY Payments",
+      "sites": 1
+    },
+    {
+      "name": "Finsweet",
+      "sites": 1
+    },
+    {
+      "name": "FlexSlider",
+      "sites": 1
+    },
+    {
+      "name": "Flywheel",
+      "sites": 1
+    },
+    {
+      "name": "Friendly Captcha",
+      "sites": 1
+    },
+    {
+      "name": "GenerateBlocks",
+      "sites": 1
+    },
+    {
+      "name": "GeneratePress",
+      "sites": 1
+    },
+    {
+      "name": "Glide.js",
+      "sites": 1
+    },
+    {
+      "name": "GLS",
+      "sites": 1
+    },
+    {
+      "name": "GoCache",
+      "sites": 1
+    },
+    {
+      "name": "Google Cloud",
+      "sites": 1
+    },
+    {
+      "name": "Google Cloud CDN",
+      "sites": 1
+    },
+    {
+      "name": "Google My Business",
+      "sites": 1
+    },
+    {
+      "name": "Google Pay",
+      "sites": 1
+    },
+    {
+      "name": "Google Sign-in",
+      "sites": 1
+    },
+    {
+      "name": "GraphQL",
+      "sites": 1
+    },
+    {
+      "name": "Handlebars",
+      "sites": 1
+    },
+    {
+      "name": "HighLevel",
+      "sites": 1
+    },
+    {
+      "name": "Hotjar",
+      "sites": 1
+    },
+    {
+      "name": "HubSpot CMS Hub",
+      "sites": 1
+    },
+    {
+      "name": "HubSpot Cookie Policy Banner",
+      "sites": 1
+    },
+    {
+      "name": "HubSpot WordPress plugin",
+      "sites": 1
+    },
+    {
+      "name": "Humblytics",
+      "sites": 1
+    },
+    {
+      "name": "Insider",
+      "sites": 1
+    },
+    {
+      "name": "iubenda",
+      "sites": 1
+    },
+    {
+      "name": "JavaServer Pages",
+      "sites": 1
+    },
+    {
+      "name": "JetEngine",
+      "sites": 1
+    },
+    {
+      "name": "Jetpack",
+      "sites": 1
+    },
+    {
+      "name": "JetTabs",
+      "sites": 1
+    },
+    {
+      "name": "JivoChat",
+      "sites": 1
+    },
+    {
+      "name": "jQuery-pjax",
+      "sites": 1
+    },
+    {
+      "name": "Kaira Vogue",
+      "sites": 1
+    },
+    {
+      "name": "libphonenumber",
+      "sites": 1
+    },
+    {
+      "name": "Linkedin Sign-in",
+      "sites": 1
+    },
+    {
+      "name": "List.js",
+      "sites": 1
+    },
+    {
+      "name": "Lodash",
+      "sites": 1
+    },
+    {
+      "name": "Lucide",
+      "sites": 1
+    },
+    {
+      "name": "Magento",
+      "sites": 1
+    },
+    {
+      "name": "MailChimp for WordPress",
+      "sites": 1
+    },
+    {
+      "name": "Mailjet",
+      "sites": 1
+    },
+    {
+      "name": "Mastercard",
+      "sites": 1
+    },
+    {
+      "name": "Material UI",
+      "sites": 1
+    },
+    {
+      "name": "Matter.js",
+      "sites": 1
+    },
+    {
+      "name": "Medallia",
+      "sites": 1
+    },
+    {
+      "name": "Microsoft HTTPAPI",
+      "sites": 1
+    },
+    {
+      "name": "Microsoft Word",
+      "sites": 1
+    },
+    {
+      "name": "Monetate",
+      "sites": 1
+    },
+    {
+      "name": "Moove GDPR Consent",
+      "sites": 1
+    },
+    {
+      "name": "MUI",
+      "sites": 1
+    },
+    {
+      "name": "MyWebsite",
+      "sites": 1
+    },
+    {
+      "name": "Next.js App Router",
+      "sites": 1
+    },
+    {
+      "name": "NightsBridge",
+      "sites": 1
+    },
+    {
+      "name": "NProgress",
+      "sites": 1
+    },
+    {
+      "name": "Nuxt.js",
+      "sites": 1
+    },
+    {
+      "name": "Optimise",
+      "sites": 1
+    },
+    {
+      "name": "Oracle Dynamic Monitoring Service",
+      "sites": 1
+    },
+    {
+      "name": "p5.js",
+      "sites": 1
+    },
+    {
+      "name": "PayPal Credit",
+      "sites": 1
+    },
+    {
+      "name": "Pinterest Ads",
+      "sites": 1
+    },
+    {
+      "name": "Pinterest Conversion Tag",
+      "sites": 1
+    },
+    {
+      "name": "PIXIjs",
+      "sites": 1
+    },
+    {
+      "name": "Plyr",
+      "sites": 1
+    },
+    {
+      "name": "PostHog",
+      "sites": 1
+    },
+    {
+      "name": "Premio Chaty",
+      "sites": 1
+    },
+    {
+      "name": "ProfilePress",
+      "sites": 1
+    },
+    {
+      "name": "ProvenExpert",
+      "sites": 1
+    },
+    {
+      "name": "Qualtrics",
+      "sites": 1
+    },
+    {
+      "name": "Radix UI",
+      "sites": 1
+    },
+    {
+      "name": "React Router",
+      "sites": 1
+    },
+    {
+      "name": "Redux Framework",
+      "sites": 1
+    },
+    {
+      "name": "Responsive Lightbox & Gallery",
+      "sites": 1
+    },
+    {
+      "name": "Retina.js",
+      "sites": 1
+    },
+    {
+      "name": "Rich Plugins Reviews",
+      "sites": 1
+    },
+    {
+      "name": "RTB House",
+      "sites": 1
+    },
+    {
+      "name": "Ruby",
+      "sites": 1
+    },
+    {
+      "name": "Ruby on Rails",
+      "sites": 1
+    },
+    {
+      "name": "Salesforce",
+      "sites": 1
+    },
+    {
+      "name": "Salesforce Commerce Cloud",
+      "sites": 1
+    },
+    {
+      "name": "Salesforce Interaction Studio",
+      "sites": 1
+    },
+    {
+      "name": "Sanity",
+      "sites": 1
+    },
+    {
+      "name": "Sanity.io",
+      "sites": 1
+    },
+    {
+      "name": "Segment",
+      "sites": 1
+    },
+    {
+      "name": "Semplice",
+      "sites": 1
+    },
+    {
+      "name": "Seravo",
+      "sites": 1
+    },
+    {
+      "name": "ServiceNow",
+      "sites": 1
+    },
+    {
+      "name": "ShareThis",
+      "sites": 1
+    },
+    {
+      "name": "Shopware",
+      "sites": 1
+    },
+    {
+      "name": "sidr",
+      "sites": 1
+    },
+    {
+      "name": "Sitecore",
+      "sites": 1
+    },
+    {
+      "name": "Sitecore Experience Edge",
+      "sites": 1
+    },
+    {
+      "name": "Sitecore Experience Platform",
+      "sites": 1
+    },
+    {
+      "name": "SiteGround",
+      "sites": 1
+    },
+    {
+      "name": "Siteimprove",
+      "sites": 1
+    },
+    {
+      "name": "Smart Slider 3",
+      "sites": 1
+    },
+    {
+      "name": "Sprinklr",
+      "sites": 1
+    },
+    {
+      "name": "Square Online",
+      "sites": 1
+    },
+    {
+      "name": "styled-components",
+      "sites": 1
+    },
+    {
+      "name": "SweetAlert",
+      "sites": 1
+    },
+    {
+      "name": "SweetAlert2",
+      "sites": 1
+    },
+    {
+      "name": "Symfony",
+      "sites": 1
+    },
+    {
+      "name": "The Events Calendar",
+      "sites": 1
+    },
+    {
+      "name": "The SEO Framework",
+      "sites": 1
+    },
+    {
+      "name": "Three.js",
+      "sites": 1
+    },
+    {
+      "name": "Tiny Slider",
+      "sites": 1
+    },
+    {
+      "name": "TinyMCE",
+      "sites": 1
+    },
+    {
+      "name": "Tippy.js",
+      "sites": 1
+    },
+    {
+      "name": "toastr",
+      "sites": 1
+    },
+    {
+      "name": "Trident AB",
+      "sites": 1
+    },
+    {
+      "name": "Trusted Shops",
+      "sites": 1
+    },
+    {
+      "name": "Turbo",
+      "sites": 1
+    },
+    {
+      "name": "Twenty Seventeen",
+      "sites": 1
+    },
+    {
+      "name": "Twenty Twelve",
+      "sites": 1
+    },
+    {
+      "name": "Twenty Twenty-Four",
+      "sites": 1
+    },
+    {
+      "name": "Twitter Ads",
+      "sites": 1
+    },
+    {
+      "name": "Typesense",
+      "sites": 1
+    },
+    {
+      "name": "Ultimate Addons for Elementor",
+      "sites": 1
+    },
+    {
+      "name": "Umbraco",
+      "sites": 1
+    },
+    {
+      "name": "UPS",
+      "sites": 1
+    },
+    {
+      "name": "Usercentrics",
+      "sites": 1
+    },
+    {
+      "name": "VentraIP",
+      "sites": 1
+    },
+    {
+      "name": "Visa",
+      "sites": 1
+    },
+    {
+      "name": "Visual Composer",
+      "sites": 1
+    },
+    {
+      "name": "WebFactory Maintenance",
+      "sites": 1
+    },
+    {
+      "name": "Weblogic Server",
+      "sites": 1
+    },
+    {
+      "name": "WebNode",
+      "sites": 1
+    },
+    {
+      "name": "WEN Themes Signify Dark",
+      "sites": 1
+    },
+    {
+      "name": "Woodmart",
+      "sites": 1
+    },
+    {
+      "name": "WordPress Super Cache",
+      "sites": 1
+    },
+    {
+      "name": "WP Rocket",
+      "sites": 1
+    },
+    {
+      "name": "WP-PageNavi",
+      "sites": 1
+    },
+    {
+      "name": "WPML",
+      "sites": 1
+    },
+    {
+      "name": "X-Clacks-Overhead",
+      "sites": 1
+    },
+    {
+      "name": "XRegExp",
+      "sites": 1
+    },
+    {
+      "name": "Yandex.Metrika",
+      "sites": 1
+    },
+    {
+      "name": "Zoho PageSense",
+      "sites": 1
+    },
+    {
+      "name": "Zoho SalesIQ",
+      "sites": 1
+    },
+    {
+      "name": "Zotabox",
+      "sites": 1
+    }
+  ]
+}
