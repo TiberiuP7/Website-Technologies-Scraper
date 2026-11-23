@@ -1,5 +1,13 @@
 Website Technologies Scraper
 
+
+Ghid de instalare: 
+
+npm install
+npx playwright install chromium
+npm start
+
+
 I approached the project with my first concern to understand the problem very well, because strong solutions come from investigation of the problem and the data behind it before writing code. The actual problem to solve was building a webste technilogies scrapper that correctly identifies technologies used in building a website, 
 and trying to gather as much technologies and possible, thus making a balance between execution speed and accuracy of the findings. Proof is also very important for each findings, I collected evidence to support it, which contains among others it's type and the page on the website where it was found, it's source, value and the pattern it was matched to from the rules.
 
@@ -26,11 +34,24 @@ The most relevant cases of the problem I found were, after we fetch the data fro
 And as such, I built a workflow that first loads the rules that map patterns to technologies found in websites, then loaded the domains, compiled those rules so they could be used precisely in runtime in comparing and then fetched in all cases the http GET request, and only after check if it s the case for Playwright too, if the html, stripped of script tags that are most likely bot CAPTCHA's or scripts, is still shorter than 500 chracters, as that is a strong giveaway of a site that's not fully loaded. Also, if on the fetch we get errors such as 403, 429, 503. These errors give away that that site is a SPA. 
 
 Here are the diagrams and the workflow I designed for this project:
+
 ![Detectarea tehnologiilor unui website.jpg](diagrams/Detectarea%20tehnologiilor%20unui%20website.jpg)
+
+
+
+
 
 ![Web Technologies Scrapper Structure.jpg](diagrams/Web%20Technologies%20Scrapper%20Structure.jpg)
 
+
+
+
+
 ![Componentele aplicatiei.jpg](diagrams/Componentele%20aplicatiei.jpg)
+
+
+
+
 
 How it works: 
 
@@ -80,7 +101,3 @@ For identifying new technologies in the future
 Across the whole corpus, I would count the script domains, add unexplained cookies, x- headers, meta generator values and JS globals (compared against a blank page). The ones that appear on many domains are the candidates.
 The frequent ones become candidates, which you label manually or with an LLM and turn into new rules.
 Also keep track of the Shopify App Store and updates to the Wappalyzer forks.
-
-many domains are the candidates.
-Turn candidates into rules. Identify the vendor behind each frequent candidate, by hand or with an LLM reading the script URL and code, write a rule in rules/custom.json, re-run with --from-raw and diff the results.
-Watch external sources. The Shopify App Store (new apps show up as new extension handles, and for this company that includes competing analytics apps), upstream fingerprint updates (npm run rules), and new packages on npm and jsDelivr.
