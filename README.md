@@ -4,10 +4,12 @@
 **Ghid de instalare:** 
 
 npm install
+
 npx playwright install chromium
+
 npm start
 
-
+\
 I approached the project with my first concern to understand the problem very well, because strong solutions come from investigation of the problem and the data behind it before writing code. The actual problem to solve was building a webste technilogies scrapper that correctly identifies technologies used in building a website, 
 and trying to gather as much technologies and possible, thus making a balance between execution speed and accuracy of the findings. Proof is also very important for each findings, I collected evidence to support it, which contains among others it's type and the page on the website where it was found, it's source, value and the pattern it was matched to from the rules.
 
@@ -66,6 +68,7 @@ This structured object is written in main in a results.JSON file, where for each
 summary.json file lists every detected technology and on how many domains it appears”.
 
 **Challenges:**
+
 Websites detect web scrapers by analyzing request characteristics, behavioral patterns, and digital fingerprints that distinguish automated tools from human browsers. Detection systems examine IP addresses, HTTP headers, TLS handshake details, browser fingerprints, and user behavior including mouse movements and request timing. When suspicious patterns emerge like high request volumes, missing interaction signals, or inconsistent browser characteristics, the system flags the traffic as automated and responds with rate limiting, CAPTCHA challenges, or blocking.
 
 For avoiding the risk of being blocked, slow down, send an honest user agent, retry 429 and 503 responses after the Retry-After delay, and cache pages so you don't fetch them twice. If a site still returns 403 errors or challenge pages, route the requests through a scraper API that manages proxies and rendering, and keep your Cheerio parser unchanged.
