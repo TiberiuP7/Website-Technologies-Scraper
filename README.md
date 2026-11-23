@@ -1,7 +1,7 @@
-Website Technologies Scraper
+**Website Technologies Scraper**
 
 
-Ghid de instalare: 
+**Ghid de instalare:** 
 
 npm install
 npx playwright install chromium
@@ -33,7 +33,7 @@ Then Main writes the data to the JSON file results.JSON and the workflow ends th
 The most relevant cases of the problem I found were, after we fetch the data from a http GET request and save it, we needed to also check if that data is complete, because some sites such as SPA's(Single Page Applications) tend to load a short or simple html file at runtime, and then dinamically load the JavaScript or other resources which would give away the technologies used in building that websit. In this case, running a headless browser in Chrome using Playwright is the solution, but a solutions that isn't feasible to use for each domain we need to scrap, because it takes many CPU resources and is heavy, aproximatively 150-300 MB for one chromium window for one site. Running the Playwright on each domain would possibly give better results but the delay in time and resources is too big to consider, and so I needed to find a solution, a middle ground, which would be the sweet spot as cost-effective and as technologies retrieved and found.
 And as such, I built a workflow that first loads the rules that map patterns to technologies found in websites, then loaded the domains, compiled those rules so they could be used precisely in runtime in comparing and then fetched in all cases the http GET request, and only after check if it s the case for Playwright too, if the html, stripped of script tags that are most likely bot CAPTCHA's or scripts, is still shorter than 500 chracters, as that is a strong giveaway of a site that's not fully loaded. Also, if on the fetch we get errors such as 403, 429, 503. These errors give away that that site is a SPA. 
 
-Here are the diagrams and the workflow I designed for this project:
+**Here are the diagrams and the workflow I designed for this project:**
 
 ![Detectarea tehnologiilor unui website.jpg](diagrams/Detectarea%20tehnologiilor%20unui%20website.jpg)
 
@@ -53,7 +53,7 @@ Here are the diagrams and the workflow I designed for this project:
 
 
 
-How it works: 
+**How it works:** 
 
 For each domain the tool fetches the homepage and two inner pages (shop, cart, contact and blog-style pages first), robots.txt, the DNS records and the certificate issuer. Then it opens the homepage in Chromium as UserAgent and records every script and request the page makes, the HTML after JavaScript ran, and the JS globals the rules ask about. Detection then matches all of it against all of the 7,716 fingerprints.
 
@@ -65,7 +65,7 @@ The result is also a structured format, an Object with many attributes, which ra
 This structured object is written in main in a results.JSON file, where for each domain there is an object that says which technologies does that domain use and other information, using the JSON.stringify method. There is also a count at the end which counts for each found technology how many times did it appear in those website that were crawled.
 summary.json file lists every detected technology and on how many domains it appears”.
 
-Challenges:
+**Challenges:**
 Websites detect web scrapers by analyzing request characteristics, behavioral patterns, and digital fingerprints that distinguish automated tools from human browsers. Detection systems examine IP addresses, HTTP headers, TLS handshake details, browser fingerprints, and user behavior including mouse movements and request timing. When suspicious patterns emerge like high request volumes, missing interaction signals, or inconsistent browser characteristics, the system flags the traffic as automated and responds with rate limiting, CAPTCHA challenges, or blocking.
 
 For avoiding the risk of being blocked, slow down, send an honest user agent, retry 429 and 503 responses after the Retry-After delay, and cache pages so you don't fetch them twice. If a site still returns 403 errors or challenge pages, route the requests through a scraper API that manages proxies and rendering, and keep your Cheerio parser unchanged.
@@ -96,8 +96,10 @@ Be polite and observable. Rate limits per host and per IP, retries with backoff,
 Recrawl incrementally. Revisit domains that change often more frequently than static ones.
 
 
-For identifying new technologies in the future
+**Identifying new technologies**
 
-Across the whole corpus, I would count the script domains, add unexplained cookies, x- headers, meta generator values and JS globals (compared against a blank page). The ones that appear on many domains are the candidates.
-The frequent ones become candidates, which you label manually or with an LLM and turn into new rules.
-Also keep track of the Shopify App Store and updates to the Wappalyzer forks.
+Across the whole corpus, I would collect everything that no rule explains: script domains, cookies, `x-` headers, `meta generator` values and JS globals (compared against a blank page, to filter out the browser's own globals). Whatever appears on many domains is a candidate.
+
+I would then identify the vendor behind each candidate, by hand or with an LLM reading the script URL and code, and turn it into a new rule.
+
+I would also watch external sources: the Shopify App Store for new apps, and updates to the Wappalyzer fingerprint forks (`npm update @openwapp/fingerprints`).

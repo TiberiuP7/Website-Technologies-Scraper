@@ -72,6 +72,7 @@ try {
 }
 
 results.sort((a, b) => a.domain.localeCompare(b.domain));
-await writeFile(new URL('../../results.json', import.meta.url),
-    JSON.stringify(results, null, 2));
+const json = JSON.stringify(results, null, 2)
+    .replace(/AIza[0-9A-Za-z_-]{35}/g, '[redacted-google-key]');
+await writeFile(new URL('../../results.json', import.meta.url), json);
 console.log('Saved results.json');

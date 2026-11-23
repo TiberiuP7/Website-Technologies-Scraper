@@ -1,47 +1,47 @@
 {
   "domainsTotal": 200,
-  "domainsReached": 187,
-  "distinctTechnologies": 425,
-  "totalDetections": 3045,
+  "domainsReached": 188,
+  "distinctTechnologies": 421,
+  "totalDetections": 3048,
   "technologies": [
     {
       "name": "jQuery",
-      "sites": 111
-    },
-    {
-      "name": "Let's Encrypt",
-      "sites": 109
+      "sites": 112
     },
     {
       "name": "Open Graph",
+      "sites": 109
+    },
+    {
+      "name": "Let's Encrypt",
       "sites": 108
     },
     {
       "name": "PHP",
-      "sites": 97
+      "sites": 98
     },
     {
       "name": "Priority Hints",
-      "sites": 85
+      "sites": 84
     },
     {
       "name": "MySQL",
-      "sites": 81
+      "sites": 82
     },
     {
       "name": "WordPress",
-      "sites": 75
+      "sites": 76
     },
     {
       "name": "Cloudflare",
       "sites": 74
     },
     {
-      "name": "HTTP/3",
-      "sites": 72
+      "name": "RSS",
+      "sites": 73
     },
     {
-      "name": "RSS",
+      "name": "HTTP/3",
       "sites": 72
     },
     {
@@ -50,27 +50,27 @@
     },
     {
       "name": "jQuery Migrate",
-      "sites": 65
+      "sites": 66
     },
     {
       "name": "Google Tag Manager",
-      "sites": 63
+      "sites": 62
     },
     {
       "name": "Font Awesome",
-      "sites": 60
+      "sites": 61
     },
     {
       "name": "HSTS",
-      "sites": 59
+      "sites": 60
     },
     {
       "name": "core-js",
-      "sites": 53
+      "sites": 54
     },
     {
       "name": "Google Analytics",
-      "sites": 53
+      "sites": 52
     },
     {
       "name": "Cloudflare Bot Management",
@@ -90,18 +90,18 @@
     },
     {
       "name": "jQuery UI",
-      "sites": 36
+      "sites": 37
     },
     {
       "name": "Swiper",
+      "sites": 37
+    },
+    {
+      "name": "Nginx",
       "sites": 36
     },
     {
       "name": "Bootstrap",
-      "sites": 35
-    },
-    {
-      "name": "Nginx",
       "sites": 35
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "name": "Yoast SEO",
-      "sites": 33
+      "sites": 34
     },
     {
       "name": "GoDaddy",
@@ -122,7 +122,7 @@
     },
     {
       "name": "React",
-      "sites": 24
+      "sites": 23
     },
     {
       "name": "Google Workspace",
@@ -133,11 +133,11 @@
       "sites": 21
     },
     {
-      "name": "Cart Functionality",
-      "sites": 20
+      "name": "Elementor",
+      "sites": 21
     },
     {
-      "name": "Elementor",
+      "name": "Cart Functionality",
       "sites": 20
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "name": "GSAP",
-      "sites": 19
+      "sites": 18
     },
     {
       "name": "imagesLoaded",
@@ -174,7 +174,7 @@
     },
     {
       "name": "Masonry",
-      "sites": 16
+      "sites": 15
     },
     {
       "name": "Akamai Bot Manager",
@@ -229,10 +229,6 @@
       "sites": 11
     },
     {
-      "name": "Sentry",
-      "sites": 11
-    },
-    {
       "name": "Site Kit",
       "sites": 11
     },
@@ -242,6 +238,10 @@
     },
     {
       "name": "Magnific Popup",
+      "sites": 10
+    },
+    {
+      "name": "Sentry",
       "sites": 10
     },
     {
@@ -305,6 +305,10 @@
       "sites": 7
     },
     {
+      "name": "Animate.css",
+      "sites": 7
+    },
+    {
       "name": "Divi",
       "sites": 7
     },
@@ -349,10 +353,6 @@
       "sites": 6
     },
     {
-      "name": "Animate.css",
-      "sites": 6
-    },
-    {
       "name": "Boomerang",
       "sites": 6
     },
@@ -373,6 +373,10 @@
       "sites": 6
     },
     {
+      "name": "Really Simple SSL & Security",
+      "sites": 6
+    },
+    {
       "name": "Squarespace",
       "sites": 6
     },
@@ -386,10 +390,6 @@
     },
     {
       "name": "Vue.js",
-      "sites": 6
-    },
-    {
-      "name": "Webpack",
       "sites": 6
     },
     {
@@ -410,10 +410,6 @@
     },
     {
       "name": "Endurance Page Cache",
-      "sites": 5
-    },
-    {
-      "name": "Flickity",
       "sites": 5
     },
     {
@@ -441,15 +437,19 @@
       "sites": 5
     },
     {
-      "name": "Really Simple SSL & Security",
-      "sites": 5
-    },
-    {
       "name": "W3 Total Cache",
       "sites": 5
     },
     {
       "name": "web-vitals",
+      "sites": 5
+    },
+    {
+      "name": "Webpack",
+      "sites": 5
+    },
+    {
+      "name": "WP Fastest Cache",
       "sites": 5
     },
     {
@@ -462,6 +462,10 @@
     },
     {
       "name": "Firebase",
+      "sites": 4
+    },
+    {
+      "name": "Flickity",
       "sites": 4
     },
     {
@@ -482,10 +486,6 @@
     },
     {
       "name": "Matomo Analytics",
-      "sites": 4
-    },
-    {
-      "name": "Microsoft Clarity",
       "sites": 4
     },
     {
@@ -525,10 +525,6 @@
       "sites": 4
     },
     {
-      "name": "WP Fastest Cache",
-      "sites": 4
-    },
-    {
       "name": "Adobe Experience Manager",
       "sites": 3
     },
@@ -545,10 +541,6 @@
       "sites": 3
     },
     {
-      "name": "AOS",
-      "sites": 3
-    },
-    {
       "name": "Apple iCloud Mail",
       "sites": 3
     },
@@ -557,15 +549,15 @@
       "sites": 3
     },
     {
+      "name": "Chart.js",
+      "sites": 3
+    },
+    {
       "name": "Cloudflare Turnstile",
       "sites": 3
     },
     {
       "name": "DreamWeaver",
-      "sites": 3
-    },
-    {
-      "name": "Facebook Login",
       "sites": 3
     },
     {
@@ -601,11 +593,11 @@
       "sites": 3
     },
     {
-      "name": "Mustache",
+      "name": "Microsoft Clarity",
       "sites": 3
     },
     {
-      "name": "Next.js",
+      "name": "Mustache",
       "sites": 3
     },
     {
@@ -614,6 +606,10 @@
     },
     {
       "name": "OVHcloud",
+      "sites": 3
+    },
+    {
+      "name": "Popper",
       "sites": 3
     },
     {
@@ -685,15 +681,15 @@
       "sites": 2
     },
     {
+      "name": "AOS",
+      "sites": 2
+    },
+    {
       "name": "Apple Pay",
       "sites": 2
     },
     {
       "name": "Bluehost",
-      "sites": 2
-    },
-    {
-      "name": "Chart.js",
       "sites": 2
     },
     {
@@ -710,6 +706,10 @@
     },
     {
       "name": "Facebook Chat Plugin",
+      "sites": 2
+    },
+    {
+      "name": "Facebook Login",
       "sites": 2
     },
     {
@@ -809,6 +809,10 @@
       "sites": 2
     },
     {
+      "name": "Next.js",
+      "sites": 2
+    },
+    {
       "name": "OceanWP",
       "sites": 2
     },
@@ -818,10 +822,6 @@
     },
     {
       "name": "Polylang",
-      "sites": 2
-    },
-    {
-      "name": "Popper",
       "sites": 2
     },
     {
@@ -886,6 +886,10 @@
     },
     {
       "name": "WPForms",
+      "sites": 2
+    },
+    {
+      "name": "XRegExp",
       "sites": 2
     },
     {
@@ -1113,10 +1117,6 @@
       "sites": 1
     },
     {
-      "name": "DPD",
-      "sites": 1
-    },
-    {
       "name": "Draftpress HFCM",
       "sites": 1
     },
@@ -1341,10 +1341,6 @@
       "sites": 1
     },
     {
-      "name": "Monetate",
-      "sites": 1
-    },
-    {
       "name": "Moove GDPR Consent",
       "sites": 1
     },
@@ -1354,10 +1350,6 @@
     },
     {
       "name": "MyWebsite",
-      "sites": 1
-    },
-    {
-      "name": "Next.js App Router",
       "sites": 1
     },
     {
@@ -1421,11 +1413,11 @@
       "sites": 1
     },
     {
-      "name": "Qualtrics",
+      "name": "PubSubJS",
       "sites": 1
     },
     {
-      "name": "Radix UI",
+      "name": "Qualtrics",
       "sites": 1
     },
     {
@@ -1518,10 +1510,6 @@
     },
     {
       "name": "Sitecore Experience Platform",
-      "sites": 1
-    },
-    {
-      "name": "SiteGround",
       "sites": 1
     },
     {
@@ -1682,10 +1670,6 @@
     },
     {
       "name": "X-Clacks-Overhead",
-      "sites": 1
-    },
-    {
-      "name": "XRegExp",
       "sites": 1
     },
     {
